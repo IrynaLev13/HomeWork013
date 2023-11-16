@@ -2,6 +2,7 @@ public class Androids implements Smartphones, LinuxOs {
 
     String name;
 
+
     public Androids(String name) {
         this.name = name;
     }
@@ -18,6 +19,11 @@ public class Androids implements Smartphones, LinuxOs {
 
     @Override
     public void internet() {
+
+    }
+
+    @Override
+    public void loading() {
 
     }
 }
